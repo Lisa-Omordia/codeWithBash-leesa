@@ -1,0 +1,232 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3  22772 12808 ?        Ss   12:31   0:02 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    12:31   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    12:31   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-kvfree_rcu_reclaim]
+root           7  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-slub_flushwq]
+root           8  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-netns]
+root          10  0.0  0.0      0     0 ?        I<   12:31   0:01 [kworker/0:0H-kblockd]
+root          13  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-mm_percpu_wq]
+root          14  0.0  0.0      0     0 ?        S    12:31   0:00 [ksoftirqd/0]
+root          15  0.0  0.0      0     0 ?        I    12:31   0:04 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    12:31   0:00 [rcu_exp_par_gp_kthread_worker/0]
+root          17  0.0  0.0      0     0 ?        S    12:31   0:00 [rcu_exp_gp_kthread_worker]
+root          18  0.0  0.0      0     0 ?        S    12:31   0:00 [migration/0]
+root          19  0.0  0.0      0     0 ?        S    12:31   0:00 [kprobe-optimizer]
+root          20  0.0  0.0      0     0 ?        S    12:31   0:00 [idle_inject/0]
+root          21  0.0  0.0      0     0 ?        S    12:31   0:00 [cpuhp/0]
+root          22  0.0  0.0      0     0 ?        S    12:31   0:00 [cpuhp/1]
+root          23  0.0  0.0      0     0 ?        S    12:31   0:00 [idle_inject/1]
+root          24  0.0  0.0      0     0 ?        S    12:31   0:00 [migration/1]
+root          25  0.0  0.0      0     0 ?        S    12:31   0:00 [ksoftirqd/1]
+root          27  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/1:0H-kblockd]
+root          28  0.0  0.0      0     0 ?        S    12:31   0:00 [kdevtmpfs]
+root          29  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-inet_frag_wq]
+root          30  0.0  0.0      0     0 ?        I    12:31   0:00 [rcu_tasks_kthread]
+root          31  0.0  0.0      0     0 ?        I    12:31   0:00 [rcu_tasks_rude_kthread]
+root          32  0.0  0.0      0     0 ?        S    12:31   0:00 [kauditd]
+root          33  0.0  0.0      0     0 ?        S    12:31   0:00 [khungtaskd]
+root          35  0.0  0.0      0     0 ?        S    12:31   0:00 [oom_reaper]
+root          37  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-writeback]
+root          38  0.0  0.0      0     0 ?        S    12:31   0:01 [kcompactd0]
+root          39  0.0  0.0      0     0 ?        SN   12:31   0:00 [ksmd]
+root          40  0.0  0.0      0     0 ?        SN   12:31   0:00 [khugepaged]
+root          41  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-kblockd]
+root          42  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-blkcg_punt_bio]
+root          44  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-kintegrityd]
+root          45  0.0  0.0      0     0 ?        S    12:31   0:00 [irq/9-acpi]
+root          46  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-tpm_dev_wq]
+root          47  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-ata_sff]
+root          48  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-md_bitmap]
+root          49  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-md_llbitmap_io]
+root          50  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-md_llbitmap_unplug]
+root          51  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-edac-poller]
+root          52  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-devfreq_wq]
+root          53  0.0  0.0      0     0 ?        S    12:31   0:00 [watchdogd]
+root          54  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-quota_events_unbound]
+root          55  0.0  0.0      0     0 ?        S    12:31   0:04 [kswapd0]
+root          56  0.0  0.0      0     0 ?        S    12:31   0:00 [ecryptfs-kthread]
+root          57  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-kthrotld]
+root          58  0.0  0.0      0     0 ?        S    12:31   0:00 [irq/25-pciehp]
+root          59  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-acpi_thermal_pm]
+root          62  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-mld]
+root          63  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-ipv6_addrconf]
+root          64  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-kstrp]
+root          79  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-charger_manager]
+root         128  0.0  0.0      0     0 ?        I    12:31   0:01 [kworker/1:2-events]
+root         131  0.0  0.0      0     0 ?        S    12:31   0:00 [scsi_eh_0]
+root         132  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-scsi_tmf_0]
+root         133  0.0  0.0      0     0 ?        S    12:31   0:00 [scsi_eh_1]
+root         134  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-scsi_tmf_1]
+root         138  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/1:1H-kblockd]
+root         167  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-raid5wq]
+root         214  0.0  0.0      0     0 ?        S    12:31   0:00 [jbd2/sda2-8]
+root         215  0.0  0.0      0     0 ?        I<   12:31   0:00 [kworker/R-ext4-rsv-conversion]
+root         265  0.0  0.3  66984 14844 ?        S<s  12:32   0:00 /usr/lib/systemd/systemd-journald
+root         324  0.0  0.1  30344  7596 ?        Ss   12:32   0:00 /usr/lib/systemd/systemd-udevd
+root         328  0.0  0.0      0     0 ?        S    12:32   0:00 [psimon]
+root         405  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/R-cfg80211]
+root         409  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/u9:2-ttm]
+root         437  0.0  0.0      0     0 ?        S    12:32   0:04 [irq/37-rtw88_pci]
+root         525  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/R-amdgpu-reset-dev]
+root         553  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/R-ttm]
+root         556  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/R-amdgpu_dm_hpd_rx_offload_wq]
+root         557  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/R-amdgpu_dm_hpd_rx_offload_wq]
+root         558  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/R-amdgpu_dm_hpd_rx_offload_wq]
+root         559  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/R-dm_vblank_control_workqueue]
+root         565  0.0  0.0      0     0 ?        S    12:32   0:00 [card1-crtc0]
+root         566  0.0  0.0      0     0 ?        S    12:32   0:00 [card1-crtc1]
+systemd+     588  0.0  0.2  21752 10932 ?        Ss   12:32   0:05 /usr/lib/systemd/systemd-resolved
+systemd+     592  0.0  0.1  91236  7204 ?        Ssl  12:32   0:00 /usr/lib/systemd/systemd-timesyncd
+root         597  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/R-gfx]
+root         598  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/R-comp_1.0.0]
+root         599  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/R-comp_1.0.1]
+root         600  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/R-comp_1.0.2]
+root         601  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/R-comp_1.0.3]
+root         602  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/R-comp_1.0.4]
+root         603  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/R-comp_1.0.5]
+root         604  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/R-comp_1.0.6]
+root         605  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/R-comp_1.0.7]
+root         606  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/R-sdma0]
+root         607  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/R-uvd]
+root         608  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/R-vce0]
+root         609  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/R-vce1]
+root         699  0.0  0.1 313308  7652 ?        Ssl  12:32   0:00 /usr/libexec/accounts-daemon
+avahi        701  0.0  0.1   8720  4444 ?        Ss   12:32   0:00 avahi-daemon: running [Leesa-in-cloud.local]
+root         703  0.0  0.1  13564  5860 ?        Ss   12:32   0:00 /usr/libexec/bluetooth/bluetoothd
+root         704  0.0  0.0   9436  2948 ?        Ss   12:32   0:00 /usr/sbin/cron -f -P
+message+     705  0.0  0.1  11164  6760 ?        Ss   12:32   0:01 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         719  0.0  0.1  82936  4156 ?        Ssl  12:32   0:00 /usr/sbin/irqbalance
+polkitd      730  0.0  0.2 311280 11536 ?        Ssl  12:32   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root         731  0.0  0.1 313512  7196 ?        Ssl  12:32   0:00 /usr/libexec/power-profiles-daemon
+root         744  0.0  0.1 309732  6536 ?        Ssl  12:32   0:00 /usr/libexec/switcheroo-control
+root         745  0.0  0.2  18144  7852 ?        Ss   12:32   0:00 /usr/lib/systemd/systemd-logind
+root         747  0.0  0.3 258460 13128 ?        Ssl  12:32   0:03 /usr/bin/touchegg --daemon
+root         749  0.0  0.3 469264 12668 ?        Ssl  12:32   0:01 /usr/libexec/udisks2/udisksd
+avahi        757  0.0  0.0   8448  1632 ?        S    12:32   0:00 avahi-daemon: chroot helper
+syslog       766  0.0  0.1 222524  6040 ?        Ssl  12:32   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         820  0.0  0.4 336512 18552 ?        Ssl  12:32   0:01 /usr/sbin/NetworkManager --no-daemon
+root         826  0.0  0.2  18168  9356 ?        Ss   12:32   0:01 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+root         879  0.0  0.2 392112  9472 ?        Ssl  12:32   0:00 /usr/sbin/ModemManager
+root         895  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/0:2H]
+root         965  0.0  0.2  38412 11632 ?        Ss   12:32   0:00 /usr/sbin/cupsd -l
+root         978  0.0  0.1 380088  7152 ?        SLsl 12:32   0:00 /usr/sbin/lightdm
+root         988  1.1  2.8 1151580 112612 tty7   Ssl+ 12:32   1:06 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root         992  0.0  0.0   8716  2036 tty1     Ss+  12:32   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+cups-br+    1033  0.0  0.4 268512 15864 ?        Ssl  12:32   0:00 /usr/sbin/cups-browsed
+kernoops    1035  0.0  0.0  12760  2232 ?        Ss   12:32   0:00 /usr/sbin/kerneloops --test
+kernoops    1038  0.0  0.0  12760  2324 ?        Ss   12:32   0:00 /usr/sbin/kerneloops
+root        1066  0.0  0.0      0     0 ?        S    12:32   0:00 [psimon]
+rtkit       1096  0.0  0.0  22956  3488 ?        SNsl 12:32   0:00 /usr/libexec/rtkit-daemon
+root        1130  0.0  0.0      0     0 ?        S<   12:32   0:00 [krfcommd]
+root        1182  0.0  0.2 317068  8548 ?        Ssl  12:32   0:00 /usr/libexec/upowerd
+root        1191  0.0  0.2 236488  8268 ?        Sl   12:32   0:00 lightdm --session-child 13 20
+leesa       1212  0.0  0.2  20572 10020 ?        Ss   12:33   0:00 /usr/lib/systemd/systemd --user
+leesa       1213  0.0  0.0  23024  3256 ?        S    12:33   0:00 (sd-pam)
+leesa       1222  0.0  0.2 115964 11104 ?        S<sl 12:33   0:00 /usr/bin/pipewire
+leesa       1223  0.0  0.1  97752  4384 ?        Ssl  12:33   0:00 /usr/bin/pipewire -c filter-chain.conf
+leesa       1225  0.0  0.3 407088 13844 ?        S<sl 12:33   0:00 /usr/bin/wireplumber
+leesa       1226  0.0  0.4 116176 15776 ?        S<sl 12:33   0:00 /usr/bin/pipewire-pulse
+leesa       1227  0.0  0.2 316560  9504 ?        SLsl 12:33   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+leesa       1228  0.0  0.1  10588  6032 ?        Ss   12:33   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+leesa       1253  0.0  0.3 551668 12688 ?        Ssl  12:33   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-session-binary --session cinnamon
+leesa       1265  0.0  0.1 309320  6136 ?        Ssl  12:33   0:00 /usr/libexec/xdg-permission-store
+leesa       1338  0.1  0.1 536352  7288 ?        Ssl  12:33   0:08 /usr/bin/ibus-daemon --daemonize --xim
+leesa       1342  0.0  0.1 314272  7752 ?        Ssl  12:33   0:00 /usr/libexec/gvfsd
+leesa       1352  0.0  0.1 459720  6788 ?        Sl   12:33   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+leesa       1354  0.0  0.1 236656  6276 ?        Sl   12:33   0:00 /usr/libexec/ibus-memconf
+leesa       1361  0.0  0.7 463664 27996 ?        Sl   12:33   0:00 /usr/libexec/ibus-ui-gtk3
+leesa       1367  0.1  0.5 380984 21336 ?        Sl   12:33   0:10 /usr/libexec/ibus-extension-gtk3
+leesa       1370  0.0  0.5 302276 19500 ?        Sl   12:33   0:00 /usr/libexec/ibus-x11 --kill-daemon
+leesa       1373  0.0  0.1 310436  6908 ?        Sl   12:33   0:00 /usr/libexec/ibus-portal
+leesa       1388  0.0  0.1 383124  7416 ?        Ssl  12:33   0:00 /usr/libexec/at-spi-bus-launcher
+leesa       1395  0.0  0.1   9716  5076 ?        S    12:33   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+leesa       1399  0.0  0.2 236068  7792 ?        Sl   12:33   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+leesa       1404  0.0  0.3 638000 14772 ?        Ssl  12:33   0:00 /usr/libexec/xdg-desktop-portal
+leesa       1412  0.0  0.1 304224  5908 ?        Sl   12:33   0:00 /usr/bin/csd-settings-remap
+leesa       1413  0.0  0.5 377476 19932 ?        Sl   12:33   0:00 /usr/bin/csd-xsettings
+leesa       1414  0.0  0.4 301648 19236 ?        Sl   12:33   0:00 /usr/bin/csd-clipboard
+leesa       1415  0.0  0.5 442836 20856 ?        Sl   12:33   0:00 /usr/bin/csd-background
+leesa       1416  0.0  0.5 1065268 21216 ?       Sl   12:33   0:00 /usr/bin/csd-power
+leesa       1417  0.0  0.2 318028 10220 ?        Sl   12:33   0:00 /usr/bin/csd-print-notifications
+leesa       1418  0.0  0.5 376308 19936 ?        Sl   12:33   0:00 /usr/bin/csd-wacom
+leesa       1419  0.0  0.5 816416 21132 ?        Sl   12:33   0:00 /usr/bin/csd-color
+leesa       1421  0.0  0.5 375856 20140 ?        Sl   12:33   0:00 /usr/bin/csd-housekeeping
+leesa       1425  0.0  0.1 303808  5552 ?        Sl   12:33   0:00 /usr/bin/csd-screensaver-proxy
+leesa       1432  0.0  0.1 305220  6036 ?        Sl   12:33   0:00 /usr/bin/csd-a11y-settings
+leesa       1441  0.0  0.5 519568 21352 ?        Sl   12:33   0:00 /usr/bin/csd-media-keys
+leesa       1446  0.0  0.5 449520 19560 ?        Sl   12:33   0:00 /usr/bin/csd-keyboard
+leesa       1451  0.0  0.5 449748 20244 ?        Sl   12:33   0:00 /usr/bin/csd-automount
+leesa       1454  0.0  0.1 230384  6156 ?        Ssl  12:33   0:00 /usr/libexec/dconf-service
+leesa       1468  0.0  0.1 536780  7156 ?        Ssl  12:33   0:00 /usr/libexec/xdg-document-portal
+leesa       1488  0.0  0.3 416268 13128 ?        Sl   12:33   0:00 /usr/libexec/csd-printer
+root        1502  0.0  0.0   2716  1948 ?        Ss   12:33   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+leesa       1516  0.0  0.5 450496 23196 ?        Ssl  12:33   0:00 /usr/libexec/xdg-desktop-portal-xapp
+colord      1518  0.0  0.2 320076 11520 ?        Ssl  12:33   0:00 /usr/libexec/colord
+leesa       1545  0.0  0.2 389368  9564 ?        Ssl  12:33   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+leesa       1557  0.0  0.1 389392  7480 ?        Ssl  12:33   0:00 /usr/libexec/gvfs-afc-volume-monitor
+leesa       1570  0.0  0.1 309804  6512 ?        Ssl  12:33   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+leesa       1571  0.0  0.1 236780  7268 ?        Sl   12:33   0:02 /usr/libexec/ibus-engine-simple
+leesa       1583  0.0  0.1 310772  6476 ?        Ssl  12:33   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+leesa       1588  0.0  0.1 309784  6408 ?        Ssl  12:33   0:00 /usr/libexec/gvfs-goa-volume-monitor
+leesa       1593  0.0  0.4 546448 18740 ?        Sl   12:33   0:00 /usr/libexec/goa-daemon
+leesa       1596  0.0  0.5 541924 22556 ?        Sl   12:33   0:00 cinnamon-launcher
+leesa       1605  0.0  0.2 389136  7904 ?        Sl   12:33   0:00 /usr/libexec/goa-identity-service
+leesa       1618  2.7  4.4 3844960 174500 ?      Sl   12:33   2:40 cinnamon --replace
+leesa       1646  0.0  0.5 450632 22528 ?        Ssl  12:33   0:00 /usr/libexec/xdg-desktop-portal-gtk
+leesa       1687  0.0  0.6 450068 23348 ?        Sl   12:33   0:00 /usr/lib/x86_64-linux-gnu/xapps/xapp-sn-watcher
+leesa       1718  0.0  1.0 827060 41500 ?        Sl   12:33   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+leesa       1719  0.0  0.1  24160  4052 ?        S    12:33   0:00 /usr/bin/python3 /usr/bin/mintwelcome-launcher
+leesa       1721  0.0  0.1 310272  6056 ?        Sl   12:33   0:00 /usr/libexec/geoclue-2.0/demos/agent
+leesa       1722  0.0  0.8 778824 31588 ?        Sl   12:33   0:01 /usr/bin/nemo-desktop
+leesa       1725  0.0  0.5 392308 20940 ?        Sl   12:33   0:00 cinnamon-killer-daemon
+leesa       1728  0.0  0.7 626192 28268 ?        Sl   12:33   0:01 /usr/bin/python3 /usr/bin/blueman-applet
+leesa       1743  0.0  0.0   2812  1808 ?        S    12:33   0:00 sh -c -- mintwelcome
+leesa       1744  0.0  0.0   2812  1808 ?        S    12:33   0:00 /usr/bin/sh /usr/bin/mintwelcome
+leesa       1748  0.0  0.8 431308 34264 ?        Sl   12:33   0:02 /usr/bin/python3 /usr/lib/linuxmint/mintwelcome/mintwelcome.py
+leesa       1792  0.0  0.8 1280068 33104 ?       Ssl  12:33   0:00 /usr/libexec/evolution-source-registry
+leesa       1839  0.0  0.5 1169440 19688 ?       Ssl  12:33   0:00 /usr/libexec/evolution-calendar-factory
+leesa       1842  0.1  0.5 394104 21744 ?        Sl   12:33   0:09 /usr/bin/python3 /usr/bin/blueman-tray
+leesa       1847  0.0  0.1  49088  7196 ?        Ss   12:33   0:00 /usr/libexec/bluetooth/obexd
+leesa       1858  0.0  0.6 899356 24920 ?        Ssl  12:33   0:00 /usr/libexec/evolution-addressbook-factory
+leesa       1932  0.0  0.2 535724  8264 ?        Sl   12:33   0:00 /usr/libexec/gvfsd-trash --spawner :1.17 /org/gtk/gvfs/exec_spaw/0
+leesa       1953  0.2  1.2 776524 50524 ?        Ssl  12:33   0:16 /usr/libexec/gnome-terminal-server
+leesa       1964  0.0  0.1  11140  4236 pts/0    Ss   12:33   0:00 bash
+leesa       1986  0.0  1.2 1045556 47484 ?       Sl   12:33   0:01 mintUpdate
+leesa       2049  0.0  0.4  63436 16832 ?        S    12:33   0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+leesa       2056  0.5  0.8 638284 31404 ?        Sl   12:33   0:35 mintreport-tray
+leesa       2190  4.4 12.6 3760016 493404 ?      Sl   12:39   4:05 /usr/lib/firefox/firefox
+leesa       2196  0.0  0.0 150956  2204 ?        Sl   12:39   0:00 /usr/lib/firefox/crashhelper 2190 9 /tmp/ 11 20261022150525
+leesa       2293  0.0  0.7 382472 30724 ?        Sl   12:39   0:00 /usr/lib/firefox/firefox-bin -contentproc -parentBuildID 20261022150525 -prefsHandle 0:36479 -prefMapHandle 1:300651 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {72e37368-fd17-4916-bdd9-e04c4f441436} -parentPid 2190 -crashHelperPid 2196 -crashHelper 5 -crashReporter 6 -appDir /usr/lib/firefox/browser 1 socket
+leesa       2296  0.0  0.5 470424 20772 ?        S    12:39   0:00 /usr/lib/firefox/firefox-bin -contentproc -ipcHandle 0 -signalPipe 1 -initialChannelId {afb55c15-7dff-423d-a1a4-16f366e01479} -parentPid 2190 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 2 forkserver
+leesa       2303  0.0  2.1 2657456 83724 ?       Sl   12:39   0:01 /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:37036 -prefMapHandle 1:300651 -jsInitHandle 2:161360 -parentBuildID 20261022150525 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {e4139134-007f-469f-af1c-33be0e082004} -parentPid 2190 -crashHelperPid 2196 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 3 tab
+leesa       2317  0.0  2.8 983304 111852 ?       Sl   12:39   0:00 /usr/lib/firefox/firefox-bin -contentproc -parentBuildID 20261022150525 -prefsHandle 0:37036 -prefMapHandle 1:300651 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {b0e9eeb3-79ea-4270-bcf3-ae87bcd8d6f6} -parentPid 2190 -crashHelperPid 2196 -crashHelper 5 -crashReporter 6 -appDir /usr/lib/firefox/browser 4 rdd
+leesa       2346  0.7  4.4 2814124 174892 ?      Sl   12:39   0:41 /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:37139 -prefMapHandle 1:300651 -jsInitHandle 2:161360 -parentBuildID 20261022150525 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b9fd25f8-5305-4fc0-8d99-6c46eed0511a} -parentPid 2190 -crashHelperPid 2196 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 5 tab
+leesa       2396  0.1  2.2 6866692 88764 ?       Sl   12:39   0:05 /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:33819 -prefMapHandle 1:300651 -jsInitHandle 2:161360 -parentBuildID 20261022150525 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d7b647f7-78ae-4431-aa3f-587fff8d955c} -parentPid 2190 -crashHelperPid 2196 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 6 tab
+leesa       2398  0.5  2.2 2748216 85816 ?       Sl   12:39   0:32 /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:33819 -prefMapHandle 1:300651 -jsInitHandle 2:161360 -parentBuildID 20261022150525 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {9b5a5366-8ee0-40e4-a397-0e594d150dc9} -parentPid 2190 -crashHelperPid 2196 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 7 tab
+leesa       2407  0.2  1.9 2630792 74796 ?       Sl   12:39   0:14 /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:33819 -prefMapHandle 1:300651 -jsInitHandle 2:161360 -parentBuildID 20261022150525 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {c057c4f5-1049-46b4-9ef2-5d1503fb79ea} -parentPid 2190 -crashHelperPid 2196 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 8 tab
+leesa       2467  0.0  0.9 638188 37292 ?        Sl   12:39   0:00 /usr/lib/firefox/firefox-bin -contentproc -parentBuildID 20261022150525 -sandboxingKind 0 -prefsHandle 0:55286 -prefMapHandle 1:300651 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {431a7542-c21e-4fe6-91f6-5f4780049fe9} -parentPid 2190 -crashHelperPid 2196 -crashHelper 5 -crashReporter 6 -appDir /usr/lib/firefox/browser 9 utility
+leesa       2513  3.9 20.9 11951952 813192 ?     Sl   12:39   3:35 /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:51938 -prefMapHandle 1:300651 -jsInitHandle 2:161360 -parentBuildID 20261022150525 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6cc5da66-ba4f-4d87-bced-9056d65d46a6} -parentPid 2190 -crashHelperPid 2196 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 10 tab
+leesa       2546  6.4 12.6 16207396 491552 ?     Sl   12:39   5:54 /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:52045 -prefMapHandle 1:300651 -jsInitHandle 2:161360 -parentBuildID 20261022150525 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {45726617-ebfe-4ac0-a4f3-10d38d51db3f} -parentPid 2190 -crashHelperPid 2196 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 11 tab
+leesa       2627  0.0  1.4 2604540 55408 ?       Sl   12:40   0:00 /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:52099 -prefMapHandle 1:300651 -jsInitHandle 2:161360 -parentBuildID 20261022150525 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {0ad4aa2d-2459-416f-b646-caeb09070df2} -parentPid 2190 -crashHelperPid 2196 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 13 tab
+leesa       2685  0.0  1.4 2604540 55320 ?       Sl   12:40   0:00 /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:52099 -prefMapHandle 1:300651 -jsInitHandle 2:161360 -parentBuildID 20261022150525 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {11c876d9-ac10-4742-a345-654c1d7e43ad} -parentPid 2190 -crashHelperPid 2196 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 14 tab
+leesa       3342  0.0  1.6 2604540 63112 ?       Sl   12:43   0:00 /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:52316 -prefMapHandle 1:300651 -jsInitHandle 2:161360 -parentBuildID 20261022150525 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5787b213-0c26-404b-aac4-f20622a9b2f8} -parentPid 2190 -crashHelperPid 2196 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 15 tab
+root        4056  0.0  0.0      0     0 ?        I<   12:45   0:00 [kworker/u9:0-rtw_tx_wq]
+leesa       4142  0.0  0.1 236316  6768 ?        Ssl  12:46   0:00 /usr/libexec/gvfsd-metadata
+leesa       4166  0.2  2.0 994692 80992 ?        Sl   12:46   0:13 /usr/bin/nemo
+root        4464  0.0  1.2 404144 46908 ?        Ssl  12:54   0:00 /usr/libexec/fwupd/fwupd
+leesa       4866  0.0  0.2 462500  9264 ?        Sl   13:13   0:00 /usr/libexec/gvfsd-network --spawner :1.17 /org/gtk/gvfs/exec_spaw/1
+leesa       4876  0.0  0.2 390564  9280 ?        Sl   13:13   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.17 /org/gtk/gvfs/exec_spaw/2
+leesa       5007  0.0  2.1 307396 83752 ?        Ssl  13:16   0:00 /opt/sublime_text/sublime_text --detached
+leesa       5014  0.0  0.0 152492  2948 ?        Sl   13:16   0:00 /opt/sublime_text/crash_handler --no-rate-limit --database=/home/leesa/.cache/sublime-text/Crash Reports --metrics-dir=/home/leesa/.cache/sublime-text/Crash Reports --url=https://crash-server.sublimehq.com/api/upload --annotation=hash=18051757765095205172 --annotation=ident=sublime_text_4215 --initial-client-fd=15 --shared-client-connection
+leesa       5030  0.0  0.9  75664 36060 ?        Sl   13:16   0:00 /opt/sublime_text/plugin_host-3.14 5007 /opt/sublime_text/sublime_text 14:5014 true /home/leesa/.config/sublime-text /home/leesa/.cache/sublime-text /opt/sublime_text/Packages
+root        5269  0.0  0.0      0     0 ?        I    13:30   0:00 [kworker/0:0-events]
+root        5299  0.0  0.0      0     0 ?        I    13:31   0:01 [kworker/u8:4-gfx]
+root        5768  0.0  0.0      0     0 ?        I    13:52   0:00 [kworker/u8:2-events_unbound]
+root        5883  0.0  0.0      0     0 ?        I    13:58   0:00 [kworker/u8:0-events_unbound]
+root        5964  0.0  0.0      0     0 ?        I    14:00   0:00 [kworker/1:0-events]
+root        6051  0.0  0.0      0     0 ?        I    14:03   0:00 [kworker/0:1-events]
+root        6169  0.0  0.0      0     0 ?        I    14:10   0:00 [kworker/u8:1-gfx]
+leesa       6186 66.6  0.1  13764  4816 pts/0    R+   14:11   0:00 ps aux
